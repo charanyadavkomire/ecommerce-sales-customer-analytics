@@ -1,0 +1,31 @@
+E-Commerce Dataset Summary
+
+Dataset shape: (50000, 9)
+
+Columns:
+['Order_ID', 'Order_Date', 'Customer_ID', 'Product', 'Category', 'Region', 'Quantity', 'Revenue', 'Profit']
+
+Missing values:
+Order_ID       0
+Order_Date     0
+Customer_ID    0
+Product        0
+Category       0
+Region         0
+Quantity       0
+Revenue        0
+Profit         0
+dtype: int64
+
+Duplicate rows: 0
+
+Numerical summary:
+           Order_ID      Quantity        Revenue         Profit
+count  50000.000000  50000.000000   50000.000000   50000.000000
+mean   26000.500000      4.017400   84695.113000   13579.660880
+std    14433.901067      2.116078  109723.804775   18721.679125
+min     1001.000000     -3.000000     412.000000      40.000000
+25%    13500.750000      2.000000   16630.000000    2479.750000
+50%    26000.500000      4.000000   41451.000000    6357.000000
+75%    38500.250000      6.000000  104808.250000   16419.500000
+max    51000.000000     30.000000  767935.000000  169919.000000
